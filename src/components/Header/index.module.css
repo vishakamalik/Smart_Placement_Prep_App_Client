@@ -1,0 +1,36 @@
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 0 2rem;
+    /* border-bottom: 0.1px solid rgb(182, 180, 180); */
+    color: #000000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .theme_toggle {
+    margin-right: 2rem;
+  }
+  
+  .toggle_btn {
+    font-size: 1.4rem;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  /* DARK MODE THEME */
+  .dark {
+    background-color: #1c1c1c;
+    color: #f5f5f5;
+  }
+  
+  /* Optional: dark-specific styling */
+  .dark .header_container {
+    background-color: #1c1c1c;
+    color: #f5f5f5;
+    border-bottom: 1px solid #444;
+  }
+  

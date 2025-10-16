@@ -1,0 +1,15 @@
+.card_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 6rem 2rem 6rem;
+  column-gap: 2rem;
+}
+.card_style {
+  width: 4rem;
+  height: 4rem;
+}
+.card_wrapper > a {
+  box-sizing: border-box;
+  text-decoration: none;
+}

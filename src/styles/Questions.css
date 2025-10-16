@@ -1,0 +1,47 @@
+/* Base styling */
+.questions {
+    padding: 1rem;
+  }
+  
+  .question-text {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .option-item {
+    margin-bottom: 10px;
+    list-style: none;
+  }
+  
+  .option-input {
+    margin-right: 10px;
+  }
+  
+  .option-label {
+    cursor: pointer;
+  }
+  
+  /* Dynamic text color based on theme using body class */
+  body.light .text,
+  body.light .question-text,
+  body.light .option-label {
+    color: #222;
+  }
+  
+  body.dark .text,
+  body.dark .question-text,
+  body.dark .option-label {
+    color: #eee;
+  }
+  
+  /* Optional: check indicator */
+  .check {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .checked {
+    color: green;
+  }
+  

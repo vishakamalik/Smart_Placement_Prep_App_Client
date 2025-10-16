@@ -1,0 +1,7 @@
+.pie-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 40vh; /* Full viewport height to ensure vertical centering */
+    flex-direction: column;
+}
